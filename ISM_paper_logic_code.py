@@ -140,13 +140,13 @@ for i in range(n):
 
 levels = find_level(intersection_set, common_mat)
 
-f = open("outfile.txt","a")
-f.write('\n')
-for i in range(n):
-    f.write('Level in TISM for E%d is %d\n'%(i+1,levels[i]))
-f.close()
+# f = open("outfile.txt","a")
+# f.write('\n')
+# for i in range(n):
+#     f.write('Level in TISM for E%d is %d\n'%(i+1,levels[i]))
+# f.close()
 
-for i in range(n):
-    print('Level in TISM for E%d is %d'%(i+1,levels[i]))
+# for i in range(n):
+#     print('Level in TISM for E%d is %d'%(i+1,levels[i]))
 
-plot_it(Driving_power, Dependence_power)
+# plot_it(Driving_power, Dependence_power)
